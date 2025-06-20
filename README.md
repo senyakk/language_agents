@@ -13,11 +13,7 @@ This project is a NetLogo simulation that models the evolution and interaction o
 - **Visualization:** Patch colors represent language features, and monitors/plots provide real-time feedback on language statistics.
 
 ## Demo
-A demo presentation of the simulation is included in this repository as `demo.mov`. You can watch it directly below if viewing this README in a compatible viewer:
-
-<video src="demo.mov" controls width="600">
-  Your browser does not support the video tag. You can download and watch the video file directly: <a href="demo.mov">demo.mov</a>
-</video>
+A demo presentation of the simulation is included in this repository as `demo.mov`.
 
 ## How to Run
 1. **Install NetLogo:** Download and install [NetLogo](https://ccl.northwestern.edu/netlogo/).

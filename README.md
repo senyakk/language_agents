@@ -4,6 +4,8 @@
 
 This project is a NetLogo simulation that models the evolution and interaction of languages across a border between two populations. Agents occupy patches on a grid, each with their own language vector, and interact with their neighbors to adapt and evolve their language over time. The simulation visualizes how language features spread, mix, and diverge in a spatially explicit environment.
 
+<img width="627" alt="Screenshot 2025-06-20 at 15 42 20" src="https://github.com/user-attachments/assets/96976393-9f33-49a2-b433-669bd072c072" />
+
 ## Features
 - **Two Populations:** Agents are initialized on either side of a central border, each with a distinct base language.
 - **Language Vectors:** Each agent's language is represented as a vector of words, with each word being a vector of features.

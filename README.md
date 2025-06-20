@@ -22,11 +22,12 @@ A demo presentation of the simulation is included in this repository as `demo.mo
 4. **Run the Simulation:** Click `setup` to initialize, then `go` to start the simulation. Observe the language evolution and variation plots.
 
 ## Parameters
-- **population-density:** Controls the initial density of agents.
-- **intra-language-variation:** Sets the amount of random variation in language features.
-- **number-of-words:** Number of words in each agent's language vector.
+- **population-density:** Probability of an agent spawning at a green field.
+- **intra-language-variation:** Sets the amount of random variation in language features. Standard deviation of the zero-mean distribution from which
+individual language variation is sampled. The variation is added to the default language vector of each population initially.
+- **number-of-words:** Number of words in each agent's language vector – size of vocabulary.
 - **word-length:** Number of features per word.
-- **border-difficulty:** Probability that an agent can cross the central border.
-- **learning-rate:** How quickly agents adapt their language from neighbors.
+- **border-difficulty:** probability of agent not moving to a border patch once it decides to move there.
+- **learning-rate:**  How much vocabulary changes after a conversation to be more similar to the partner’s.
 
 
